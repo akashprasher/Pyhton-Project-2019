@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+
+</script>
+<body onload="startTime()">
+
+<p><img src="C:\Users\admin\Desktop\17HTML19\dpool.png" alt="Deadpool" align="center"></p>
+
+<title>Deadpool Fan Club</title>
+</head>
+<body background="C:\Users\admin\Desktop\background-html.jpg">
+
+
+</style>
+
+
+
+<h1 style="color:rgb(255, 0, 0);" align="center">Deadpool Fan Club</h1>
+
+<form action="C:\Users\admin\Desktop\17HTML19\welcome.php"align="center">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+
+<p>Interested To Get Updates</p>
+
+<input type="radio" name="Intersested TO get Updates" value="Yes" checked>Yes<br>
+
+<input type="radio" name="Intersested TO get Updates" value="no" checked>No<br>
+
+<h4>"Terms And Conditions"</h4>
+<iframe src="C:\Users\admin\Desktop\17HTML19\htm.htm" height="168" width="300"></iframe>
+<p> </p>
+
+<input type="radio" name="Terms And Conditions" value="Accepted" checked>Accepted<br>
+
+<input type="radio" name="Terms And Conditions" value="Not Accepted" checked>Not Accepted<br>
+
+<p> </p>
+<input type="submit">
+
+
+</form> 
+
+
+
+</body>
+</html>
