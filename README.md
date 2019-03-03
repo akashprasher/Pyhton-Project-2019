@@ -1,2 +1,2 @@
 # Python-Project-2019
-Don't make any change in code without permission !!
+This Project is about a travel website on which you can search for places and hotels
