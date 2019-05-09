@@ -4,65 +4,7 @@
 <title>heart.a.traveller-login</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="ti.png" type="image/png">
-<style>
 
-body {  background-repeat: no-repeat; background-attachment: scroll;
-   
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.topnav {
-  overflow: hidden;
-  background-color: #ffffff;
-}
-
-.topnav a {
-  float: right;
-  color: black;
-  text-align: center;
-  padding: 10px 10px;
-  text-decoration: none;
-  font-size: 17px;
-  
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: white;
-}
-
-
-.dopnav {
-  overflow: hidden;
-  background-color: #ffffff;
-  
-}
-.dopnav a {
-  float: center;
-  color: black;
-  text-align: center;
-  padding: 10px 10px;
-  text-decoration: none;
-  font-size: 17px;
-  
-}
-.dopnav a:hover {
-  background-color: #ddd;
-  color: white;
-}
-.center {
-    align-self: center;
-    margin: auto;
-    width: 60%;
-    border: 3px solid green;
-    padding: 10px;
-    background-color: white;
-    opacity: 0.8;
-}
-
-</style>
 </head>
 <body style="align-items: center;" style="size: 100px" background="imgl.jpg" >
 <div class="topnav" align="center">
